@@ -1,0 +1,22 @@
+div
+{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+div + div
+{
+    background-color: rgb(56, 54, 54);
+}
+
+div + div + div
+{
+    background-color: rgb(95, 93, 93);
+}
+
+div + div + div + div
+{
+    background-color: rgb(165, 164, 164);
+}

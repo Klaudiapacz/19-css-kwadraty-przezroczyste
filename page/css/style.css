@@ -6,17 +6,17 @@ div
     margin-top: 5px;
     margin-left: 35px;
 }
-div + div
+div:nth-child(2)
 {
-    background-color: rgb(56, 54, 54);
+    background-color: rgba(0, 0, 0, 0.562);
 }
 
-div + div + div
+div:nth-child(3)
 {
-    background-color: rgb(95, 93, 93);
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
-div + div + div + div
+div:nth-child(4)
 {
-    background-color: rgb(165, 164, 164);
+    background-color: rgba(0, 0, 0, 0.219);
 }
